@@ -1,0 +1,163 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: #f5f1e8; /* soft beige */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Container */
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 1100px;
+}
+
+/* Header */
+header {
+  background: #fff;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #6b4e3d;
+}
+
+nav ul {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #6b4e3d;
+}
+
+/* Hero Section */
+.hero {
+  background: #e9dfd3;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4a372b;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* About Section */
+.about {
+  padding: 3rem 0;
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+  color: #4a372b;
+  font-size: 1.8rem;
+}
+
+/* Work Section */
+.work {
+  background: #fff;
+  padding: 3rem 0;
+}
+
+.work h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #4a372b;
+}
+
+.work-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.work-item {
+  background: #fefefe;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.work-item img {
+  max-width: 100%;
+  border-radius: 6px;
+}
+
+.work-item h3 {
+  margin: 1rem 0 0.5rem;
+  color: #6b4e3d;
+}
+
+.work-item a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  color: #fff;
+  background: #6b4e3d;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+.work-item a:hover {
+  background: #4a372b;
+}
+
+/* Contact Section */
+.contact {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #4a372b;
+  margin-bottom: 1rem;
+}
+
+.contact ul {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.contact a {
+  color: #6b4e3d;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #6b4e3d;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
